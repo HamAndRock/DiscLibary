@@ -2,6 +2,7 @@
 node_modules
 /dist
 compilation-stats.json*
+package-lock.json
 
 # local env files
 .env.local
