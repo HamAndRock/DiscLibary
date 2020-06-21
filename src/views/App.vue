@@ -22,6 +22,5 @@
 <style lang="sass">
 
     @import '~vuetify/dist/vuetify.min.css'
-    @import '~@mdi/font/css/materialdesignicons.css'
 
 </style>
