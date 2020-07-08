@@ -23,8 +23,8 @@ export abstract class Api {
 
         return {
             headers: {
-                'Application-Key-Id': 'cLgVqyM8mXCx3SuVEcQo2bgqcQQc3oXtF7fIFkEYCOqxaUCBUH',
-                'Application-Key': 'YQvV6FaPvlSyS0nxZP0qKQFDTTtoBTqlFSbQBmxKP2OdFr9U3qbBpmEUvXOXWnizbOJAk4'
+                'Application-Key-Id': 'nBisYl1H8ibn71E4gONFkkB4sPTVN8BrZDFWhn50lIiUCn5v8t',
+                'Application-Key': '7QXUepWeleBr2fPrWbmz1mK23Buzpz2c6cPGqsxRroFnjZdQ7nsLV6tqlKqY3HcOnJv8ef'
             }
         }
 
@@ -34,10 +34,10 @@ export abstract class Api {
     private getInnerUrl(rootUrl = false): string {
 
         if (rootUrl) {
-            return `https://api.hss.clouddock.cz/`
+            return `https://clouddock.havelka.net`
         } else {
-            let organizationID = '6015787e-c0eb-4e43-8dd7-516e62a2c25b';
-            return `https://api.hss.clouddock.cz/organizations/${organizationID}/` + this.getRootApi() + "/"
+            let organizationID = '230073c0-6e00-6600-6900-72006d000000';
+            return `https://clouddock.havelka.net/organizations/${organizationID}/` + this.getRootApi() + "/"
         }
     }
 

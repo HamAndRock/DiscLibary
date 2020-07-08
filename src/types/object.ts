@@ -18,7 +18,7 @@ export enum DiskType {
 }
 
 export enum Tables {
-    DISC_TABLE = "7ac5c765-e5f1-4fa6-b03f-618e33ff1430"
+    DISC_TABLE = "e1700939-be78-4f4c-acd2-9ceb0384041c"
 }
 
 export enum Kind {
